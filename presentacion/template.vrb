@@ -1,0 +1,24 @@
+\frametitle{Firmware - Cálculos de movimiento de GCode}
+\begin{columns}
+      \column{0.3\textwidth}
+\begin{align}
+   \notag
+   t_a   &= \frac{V_f}{a} \\
+   \notag
+   \\
+   \notag
+   X_a   &= \frac{V_f^2}{2a} \\
+   \notag
+   X_d   &= \frac{V_f^2}{2d} \\
+   \notag
+   X_c   &= X-X_a-X_d \\
+   \notag
+   \\
+   \notag
+   t_c   &= \frac{V_f}{X_c}
+   \notag
+\end{align}
+\boxed{Timer = t_a+t_c}
+      \column{0.7\textwidth}
+      \includegraphics[width=\textwidth, left]{./Figures/gcode2.pdf}
+   \end{columns}

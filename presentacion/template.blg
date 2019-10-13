@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: template.aux
+The style file: plain.bst
+Database file #1: example.bib.bib
+Warning--empty publisher in ncurses
+Warning--empty year in ncurses
+Warning--empty publisher in url:wolfcut
+Warning--empty year in url:wolfcut
+Warning--empty publisher in url:gnuplot
+Warning--empty year in url:gnuplot
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            512 strings with 4413 characters,
+and the built_in function-call counts, 1042 in all, are:
+= -- 80
+> -- 35
+< -- 0
++ -- 15
+- -- 10
+* -- 51
+:= -- 176
+add.period$ -- 10
+call.type$ -- 5
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 50
+empty$ -- 111
+format.name$ -- 10
+if$ -- 214
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 6
+newline$ -- 23
+num.names$ -- 10
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 25
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 14
+warning$ -- 6
+while$ -- 10
+width$ -- 6
+write$ -- 37
+(There were 6 warnings)
