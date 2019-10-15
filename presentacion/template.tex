@@ -27,9 +27,7 @@
 %   TITLE SLIDE
 
 \title{\centering{Presentación Final Sistema Embebidos Distribuidos}}
-
 \subtitle{\centering{\small{Pablo Slavkin, Gonzalo Lavigna}}}
-
 \titlegraphic{\includegraphics[scale=0.2]{Images/Connectivity.jpg}}
 %\author{MESE 2019 - FIUBA}
 
@@ -50,62 +48,45 @@
 \end{frame}
 
 
-\begin{frame}{Motivación - Solución actual con PC}
+\begin{frame}{Motivación}
    \begin{columns}
-      \column{0.6\textwidth}
-      \begin{center}
-         \includegraphics[width=\textwidth]{./Figures/wolfcut_cnc.jpg} \\
-         \href{https://wolfcut.es/}{https://wolfcut.es/}
-      \end{center}
       \column{0.4\textwidth}
+      \includegraphics [width=\textwidth]{./visio/Filmina_2.jpg}
+      \column{0.6\textwidth}
       \begin{itemize}
-         \item{Clientes de Diferentes industrias.}
+       \item{Generar un ejemplo práctico con las siguientes caracteristicas}
       \begin{itemize}
-         \item{Carton.}
-         \item{Madera.}
-         \item{Azulejos.}
-         \item{Polifan.}
+                   \item{Instanciar broker MQTT en una SBC.}
+	         \item{Comunicación entre 2 redes wifi a través de la nube.}
+	         \item{Utilización de bases de datos.}
+	         \item{Utilización de un visor de telemetría.}
+	         \item{Implementación con distintas plataformas de HW.}
       \end{itemize}
-         \item{PC.}
-         \item{Interfaz.}
-         \item{SO general.}
-         \item{Software.}
-         \item{Modificaciones.}
-      \end{itemize}
-   \end{columns}
-\end{frame}
-\begin{frame}{Motivación - Solución actual con PC}
-   \begin{columns}
-      \column{0.5\textwidth}
-      \includegraphics[width=\textwidth]{./Figures/tripas_wolfcut.jpg}
-      \column{0.5\textwidth}
-      Desventajas
-      \begin{itemize}
-         \item{Pulsos no uniformes.}
-         \item{Baja confiabilidad.}
-         \item{Software cerrado.}
-         \item{Licencias costosas.}
-         \item{Cableado complejo.}
-         \item{Interfases poco apropiadas para uso industrial.}
-         \item{No expansible.}
       \end{itemize}
    \end{columns}
 \end{frame}
 
-\begin{frame}{Motivación - Solución embebida}
-   \begin{columns}
-      \column{0.5\textwidth}
-         \includegraphics[width=\textwidth]{./Figures/prototipo_hardware4.jpg}
-      \column{0.5\textwidth}
-      Mejoras:
+
+\begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
+
+	\centering{\includegraphics [scale=0.4]{./visio/Filmina_3.jpg}}
+
+\end{frame}
+
+\begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
+ \begin{itemize}
+     \item{Implementación:}
       \begin{itemize}
-               \item{No requiere PC.}
-               \item{Open Hard.}
-               \item{Open Soft.}
-               \item{Pulsos generados por hard.}
-               \item{Acepta nuevos periféricos.}
+               \item{Mote 1 y Mote 2 se publica por MQTT el RSSI.}
+               \item{Mote 2 se conecta un MPU9250 y utilizando la correspondiente libreria en Arduino IDE se publica la temperatura del die.}
+               \item{A traves de Internet se conectan los motes al broker MQTT que esta en la BBB Wireless conectado dci.ddns.net.}
+	    \item{Utilizando la implementación linux de ISO II se contruye con buildroot una distribución con MySQL, Mosquitto y Python.}
+	    \item{Cuando se compila con buildroot se agregan al interprete de Python los package para un cliente MySQL y MQTT.}
+               \item{Se realizan scripts de Python para poder guardar los datos desde el broker MQTT a las tablas de la base de datos MySQL.}
+               \item{El grafana se instala utilziando el binario ARM provisto en la sección de descarga de la aplicación.}
+               \item{Los dashboards del grafaba se realizan conentandonos a la BBB wireless y utilizando el cliente Web.}
       \end{itemize}
-   \end{columns}
+  \end{itemize}
 \end{frame}
 
 \begin{frame}{Hardware - Driver de Motores de desarrollo}

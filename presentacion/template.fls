@@ -398,11 +398,11 @@ INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\
 INPUT C:\Users\Lavigna Gonzalo\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Regular-osf-sc-t1.vf
 INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-sc-t1--base.tfm
-INPUT Figures\wolfcut_cnc.jpg
-INPUT .\Figures\wolfcut_cnc.jpg
-INPUT .\Figures\wolfcut_cnc.jpg
-INPUT .\Figures\wolfcut_cnc.jpg
-INPUT .\Figures\wolfcut_cnc.jpg
+INPUT visio\Filmina_2.jpg
+INPUT .\visio\Filmina_2.jpg
+INPUT .\visio\Filmina_2.jpg
+INPUT .\visio\Filmina_2.jpg
+INPUT .\visio\Filmina_2.jpg
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
@@ -452,16 +452,11 @@ INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\F
 INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1--base.tfm
 INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Regular-osf-t1.vf
 INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1--base.tfm
-INPUT Figures\tripas_wolfcut.jpg
-INPUT .\Figures\tripas_wolfcut.jpg
-INPUT .\Figures\tripas_wolfcut.jpg
-INPUT .\Figures\tripas_wolfcut.jpg
-INPUT .\Figures\tripas_wolfcut.jpg
-INPUT Figures\prototipo_hardware4.jpg
-INPUT .\Figures\prototipo_hardware4.jpg
-INPUT .\Figures\prototipo_hardware4.jpg
-INPUT .\Figures\prototipo_hardware4.jpg
-INPUT .\Figures\prototipo_hardware4.jpg
+INPUT visio\Filmina_3.jpg
+INPUT .\visio\Filmina_3.jpg
+INPUT .\visio\Filmina_3.jpg
+INPUT .\visio\Filmina_3.jpg
+INPUT .\visio\Filmina_3.jpg
 INPUT Figures\xnucleo.jpg
 INPUT .\Figures\xnucleo.jpg
 INPUT .\Figures\xnucleo.jpg

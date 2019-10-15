@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.15)  15 OCT 2019 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.15)  15 OCT 2019 19:40
 entering extended mode
 **f:/GIT/CIAA/15-mse_24sed_tp_final/presentacion/template.tex
 (f:/GIT/CIAA/15-mse_24sed_tp_final/presentacion/template.tex
@@ -891,123 +891,123 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 39.
+(hyperref)                removing `\<let>-command' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 39.
+(hyperref)                removing `\\' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 39.
+(hyperref)                removing `\@centercr' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 39.
+(hyperref)                removing `\rightskip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 39.
+(hyperref)                removing `\@flushglue' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 39.
+(hyperref)                removing `\leftskip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 39.
+(hyperref)                removing `\@flushglue' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 39.
+(hyperref)                removing `\parindent' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 39.
+(hyperref)                removing `\z@' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 39.
+(hyperref)                removing `\parfillskip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 39.
+(hyperref)                removing `\z@skip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 39.
+(hyperref)                removing `\<let>-command' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 39.
+(hyperref)                removing `\\' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@centercr' on input line 39.
+(hyperref)                removing `\@centercr' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rightskip' on input line 39.
+(hyperref)                removing `\rightskip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 39.
+(hyperref)                removing `\@flushglue' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leftskip' on input line 39.
+(hyperref)                removing `\leftskip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@flushglue' on input line 39.
+(hyperref)                removing `\@flushglue' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parindent' on input line 39.
+(hyperref)                removing `\parindent' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 39.
+(hyperref)                removing `\z@' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\parfillskip' on input line 39.
+(hyperref)                removing `\parfillskip' on input line 37.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@skip' on input line 39.
+(hyperref)                removing `\z@skip' on input line 37.
 
 (f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 37.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on input line 39.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on input line 37.
  ("C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex/latex/fira\t1firasans-osf.fd"
 File: T1FiraSans-OsF.fd 2019/06/04 (autoinst) Font definitions for T1/FiraSans-OsF.
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 39.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 39.
+(Font)              scaled to size 10.95pt on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1067,7 +1067,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box92
-Package hyperref Info: Link coloring OFF on input line 39.
+Package hyperref Info: Link coloring OFF on input line 37.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
@@ -1075,55 +1075,55 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count198
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
  (f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out) (f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out)
 \@outlinefile=\write5
 \openout5 = `template.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 39.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 39.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 37.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 39.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 39.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/FiraSans-OsF/bx/n on input line 39.
+(Font)                  OT1/cmr/bx/n --> T1/FiraSans-OsF/bx/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/FiraSans-OsF/bx/n on input line 39.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 39.
+(Font)                  OT1/cmr/bx/n --> T1/FiraSans-OsF/bx/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/FiraSans-OsF/m/n on input line 39.
+(Font)                  OT1/cmss/m/n --> T1/FiraSans-OsF/m/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/FiraSans-OsF/m/n on input line 39.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 39.
+(Font)                  OT1/cmss/bx/n --> T1/FiraSans-OsF/m/n on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/FiraSans-OsF/m/it on input line 39.
+(Font)                  OT1/cmr/m/it --> T1/FiraSans-OsF/m/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/FiraSans-OsF/m/it on input line 39.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 39.
+(Font)                  OT1/cmr/bx/it --> T1/FiraSans-OsF/m/it on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/FiraMono-TOsF/m/n on input line 39.
+(Font)                  OT1/cmtt/m/n --> T1/FiraMono-TOsF/m/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/FiraMono-TOsF/m/n on input line 39.
+(Font)                  OT1/cmtt/m/n --> T1/FiraMono-TOsF/m/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/bx/n on input line 39.
+(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/bx/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/bx/it on input line 39.
+(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 39.
+(Font)                  OT1/cmss/bx/n --> T1/cmr/bx/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/FiraSans-OsF/bx/n --> T1/FiraSans-OsF/bx/n on input line 39.
+(Font)                  T1/FiraSans-OsF/bx/n --> T1/FiraSans-OsF/bx/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/bx/n on input line 39.
+(Font)                  T1/FiraSans-OsF/m/n --> T1/FiraSans-OsF/bx/n on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/bx/it on input line 39.
+(Font)                  T1/FiraSans-OsF/m/it --> T1/FiraSans-OsF/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/FiraMono-TOsF/m/n --> T1/FiraMono-TOsF/bx/n on input line 39.
+(Font)                  T1/FiraMono-TOsF/m/n --> T1/FiraMono-TOsF/bx/n on input line 37.
  ("C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex/latex/translator\translator-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 ) ("C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex/latex/translator\translator-bibliography-dictionary-English.dict"
@@ -1142,172 +1142,170 @@ Dictionary: translator-theorem-dictionary, Language: English
 \c@lstlisting=\count267
  (f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.nav)
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 39.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 39.
+(Font)              scaled to size 6.0pt on input line 37.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 39.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 39.
+(Font)              scaled to size 8.0pt on input line 37.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 50.
+(Font)              scaled to size 20.74pt on input line 48.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 20.74pt on input line 50.
+(Font)              scaled to size 20.74pt on input line 48.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/sc' will be
-(Font)              scaled to size 20.74pt on input line 50.
+(Font)              scaled to size 20.74pt on input line 48.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 50.
+(Font)              scaled to size 14.4pt on input line 48.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 14.4pt on input line 50.
+(Font)              scaled to size 14.4pt on input line 48.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 10.0pt on input line 50.
+(Font)              scaled to size 10.0pt on input line 48.
 <Images/Connectivity.jpg, id=16, 963.6pt x 654.445pt>
 File: Images/Connectivity.jpg Graphic file (type jpg)
 <use Images/Connectivity.jpg>
-Package pdftex.def Info: Images/Connectivity.jpg  used on input line 50.
+Package pdftex.def Info: Images/Connectivity.jpg  used on input line 48.
 (pdftex.def)             Requested size: 192.71658pt x 130.88667pt.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 50.
+(Font)              scaled to size 12.0pt on input line 48.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 12.0pt on input line 50.
+(Font)              scaled to size 12.0pt on input line 48.
 
 
 pdfTeX warning: pdflatex (file ./Figures/logo_fiuba.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 <./Figures/logo_fiuba.pdf, id=17, 246.6817pt x 185.0112pt>
 File: ./Figures/logo_fiuba.pdf Graphic file (type pdf)
 <use ./Figures/logo_fiuba.pdf>
-Package pdftex.def Info: ./Figures/logo_fiuba.pdf  used on input line 50.
+Package pdftex.def Info: ./Figures/logo_fiuba.pdf  used on input line 48.
 (pdftex.def)             Requested size: 96.45586pt x 34.29152pt.
 
-Overfull \vbox (56.5848pt too high) detected at line 50
+Overfull \vbox (56.5848pt too high) detected at line 48
  []
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 50.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 50.
+(Font)              scaled to size 4.0pt on input line 48.
 [1
 
 {C:/Users/Lavigna Gonzalo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/logo_fiuba.pdf> <f:/GIT/CIAA/15-mse_24sed_tp_final/presentacion/Images/Connectivity.jpg>]
-<./Figures/wolfcut_cnc.jpg, id=47, 1083.04625pt x 657.45625pt>
-File: ./Figures/wolfcut_cnc.jpg Graphic file (type jpg)
-<use ./Figures/wolfcut_cnc.jpg>
-Package pdftex.def Info: ./Figures/wolfcut_cnc.jpg  used on input line 76.
-(pdftex.def)             Requested size: 192.91171pt x 117.10309pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
+<./visio/Filmina_2.jpg, id=47, 271.0125pt x 444.15938pt>
+File: ./visio/Filmina_2.jpg Graphic file (type jpg)
+<use ./visio/Filmina_2.jpg>
+Package pdftex.def Info: ./visio/Filmina_2.jpg  used on input line 67.
+(pdftex.def)             Requested size: 128.60452pt x 210.77457pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10.95> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.95pt on input line 76.
+(Font)              scaled to size 10.95pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <8> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 76.
+(Font)              scaled to size 8.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <6> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 76.
+(Font)              scaled to size 6.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 76.
+(Font)              scaled to size 10.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 76.
+(Font)              scaled to size 10.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 7.0pt on input line 76.
+(Font)              scaled to size 7.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <5> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 5.0pt on input line 76.
+(Font)              scaled to size 5.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <10> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 76.
+(Font)              scaled to size 10.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <7> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 7.0pt on input line 76.
+(Font)              scaled to size 7.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <5> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
-(Font)              scaled to size 5.0pt on input line 76.
+(Font)              scaled to size 5.0pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 76.
+(Font)              scaled to size 14.4pt on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 76.
+(Font)              Font shape `T1/FiraSans-OsF/regular/sc' tried instead on input line 67.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/sc' will be
-(Font)              scaled to size 14.4pt on input line 76.
+(Font)              scaled to size 14.4pt on input line 67.
  [2
 
- <./Figures/wolfcut_cnc.jpg>]
-<./Figures/tripas_wolfcut.jpg, id=56, 452.69125pt x 553.06625pt>
-File: ./Figures/tripas_wolfcut.jpg Graphic file (type jpg)
-<use ./Figures/tripas_wolfcut.jpg>
-Package pdftex.def Info: ./Figures/tripas_wolfcut.jpg  used on input line 93.
-(pdftex.def)             Requested size: 160.75812pt x 196.40318pt.
- [3
+ <./visio/Filmina_2.jpg>]
+<./visio/Filmina_3.jpg, id=55, 796.47563pt x 560.0925pt>
+File: ./visio/Filmina_3.jpg Graphic file (type jpg)
+<use ./visio/Filmina_3.jpg>
+Package pdftex.def Info: ./visio/Filmina_3.jpg  used on input line 74.
+(pdftex.def)             Requested size: 318.58461pt x 224.03302pt.
 
- <./Figures/tripas_wolfcut.jpg>]
-<./Figures/prototipo_hardware4.jpg, id=62, 1004.75375pt x 753.81625pt>
-File: ./Figures/prototipo_hardware4.jpg Graphic file (type jpg)
-<use ./Figures/prototipo_hardware4.jpg>
-Package pdftex.def Info: ./Figures/prototipo_hardware4.jpg  used on input line 109.
-(pdftex.def)             Requested size: 160.75812pt x 120.60156pt.
- [4
+Overfull \vbox (0.5768pt too high) detected at line 74
+ []
 
- <./Figures/prototipo_hardware4.jpg>]
-<./Figures/xnucleo.jpg, id=68, 594.22pt x 536.0025pt>
+[3
+
+ <./visio/Filmina_3.jpg>] [4
+
+]
+<./Figures/xnucleo.jpg, id=66, 594.22pt x 536.0025pt>
 File: ./Figures/xnucleo.jpg Graphic file (type jpg)
 <use ./Figures/xnucleo.jpg>
-Package pdftex.def Info: ./Figures/xnucleo.jpg  used on input line 129.
+Package pdftex.def Info: ./Figures/xnucleo.jpg  used on input line 110.
 (pdftex.def)             Requested size: 160.75812pt x 145.00887pt.
  [5
 
  <./Figures/xnucleo.jpg>]
-<./Figures/kicad_top.png, id=74, 329.23pt x 276.03125pt>
+<./Figures/kicad_top.png, id=72, 329.23pt x 276.03125pt>
 File: ./Figures/kicad_top.png Graphic file (type png)
 <use ./Figures/kicad_top.png>
-Package pdftex.def Info: ./Figures/kicad_top.png  used on input line 145.
+Package pdftex.def Info: ./Figures/kicad_top.png  used on input line 126.
 (pdftex.def)             Requested size: 160.75812pt x 134.78476pt.
  [6
 
  <./Figures/kicad_top.png>]
-<./Figures/proto_pap_top.jpg, id=82, 849.1725pt x 849.1725pt>
+<./Figures/proto_pap_top.jpg, id=80, 849.1725pt x 849.1725pt>
 File: ./Figures/proto_pap_top.jpg Graphic file (type jpg)
 <use ./Figures/proto_pap_top.jpg>
-Package pdftex.def Info: ./Figures/proto_pap_top.jpg  used on input line 154.
+Package pdftex.def Info: ./Figures/proto_pap_top.jpg  used on input line 135.
 (pdftex.def)             Requested size: 160.75812pt x 160.74841pt.
-<./Figures/proto_pap_bot.jpg, id=83, 849.1725pt x 849.1725pt>
+<./Figures/proto_pap_bot.jpg, id=81, 849.1725pt x 849.1725pt>
 File: ./Figures/proto_pap_bot.jpg Graphic file (type jpg)
 <use ./Figures/proto_pap_bot.jpg>
-Package pdftex.def Info: ./Figures/proto_pap_bot.jpg  used on input line 154.
+Package pdftex.def Info: ./Figures/proto_pap_bot.jpg  used on input line 135.
 (pdftex.def)             Requested size: 160.75812pt x 160.74841pt.
  [7
 
  <./Figures/proto_pap_top.jpg> <./Figures/proto_pap_bot.jpg>]
-<./Figures/tivac.jpg, id=90, 737.75626pt x 493.845pt>
+<./Figures/tivac.jpg, id=88, 737.75626pt x 493.845pt>
 File: ./Figures/tivac.jpg Graphic file (type jpg)
 <use ./Figures/tivac.jpg>
-Package pdftex.def Info: ./Figures/tivac.jpg  used on input line 168.
+Package pdftex.def Info: ./Figures/tivac.jpg  used on input line 149.
 (pdftex.def)             Requested size: 160.75812pt x 107.60634pt.
  [8
 
  <./Figures/tivac.jpg>]
-<./videos/shot0001.jpg, id=97, 934.49126pt x 525.965pt>
+<./videos/shot0001.jpg, id=95, 934.49126pt x 525.965pt>
 File: ./videos/shot0001.jpg Graphic file (type jpg)
 <use ./videos/shot0001.jpg>
-Package pdftex.def Info: ./videos/shot0001.jpg  used on input line 185.
+Package pdftex.def Info: ./videos/shot0001.jpg  used on input line 166.
 (pdftex.def)             Requested size: 160.75812pt x 90.48026pt.
  [9
 
@@ -1317,7 +1315,7 @@ Package pdftex.def Info: ./videos/shot0001.jpg  used on input line 185.
 \openout4 = `template.vrb'.
 
  (f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
-<./Figures/exact_stop.pdf, id=111, 142.5325pt x 384.43625pt>
+<./Figures/exact_stop.pdf, id=109, 142.5325pt x 384.43625pt>
 File: ./Figures/exact_stop.pdf Graphic file (type pdf)
 <use ./Figures/exact_stop.pdf>
 Package pdftex.def Info: ./Figures/exact_stop.pdf  used on input line 26.
@@ -1342,13 +1340,13 @@ Overfull \hbox (2.09494pt too wide) in paragraph at lines 23--24
 [][][] 
  []
 
-<./Figures/gcode.pdf, id=126, 426.59375pt x 370.38374pt>
+<./Figures/gcode.pdf, id=124, 426.59375pt x 370.38374pt>
 File: ./Figures/gcode.pdf Graphic file (type pdf)
 <use ./Figures/gcode.pdf>
 Package pdftex.def Info: ./Figures/gcode.pdf  used on input line 26.
 (pdftex.def)             Requested size: 225.06038pt x 195.40948pt.
 )
-Overfull \vbox (22.77377pt too high) detected at line 266
+Overfull \vbox (22.77377pt too high) detected at line 247
  []
 
 [12
@@ -1357,7 +1355,7 @@ Overfull \vbox (22.77377pt too high) detected at line 266
 \openout4 = `template.vrb'.
 
  (f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
-<./Figures/gcode2.pdf, id=143, 284.06125pt x 227.85126pt>
+<./Figures/gcode2.pdf, id=141, 284.06125pt x 227.85126pt>
 File: ./Figures/gcode2.pdf Graphic file (type pdf)
 <use ./Figures/gcode2.pdf>
 Package pdftex.def Info: ./Figures/gcode2.pdf  used on input line 23.
@@ -1365,42 +1363,42 @@ Package pdftex.def Info: ./Figures/gcode2.pdf  used on input line 23.
 ) [13
 
  <./Figures/gcode2.pdf>]
-<./Figures/firmware_flujo_basico.pdf, id=157, 569.12625pt x 767.86874pt>
+<./Figures/firmware_flujo_basico.pdf, id=155, 569.12625pt x 767.86874pt>
 File: ./Figures/firmware_flujo_basico.pdf Graphic file (type pdf)
 <use ./Figures/firmware_flujo_basico.pdf>
-Package pdftex.def Info: ./Figures/firmware_flujo_basico.pdf  used on input line 316.
+Package pdftex.def Info: ./Figures/firmware_flujo_basico.pdf  used on input line 297.
 (pdftex.def)             Requested size: 160.75812pt x 216.89989pt.
  [14
 
  <./Figures/firmware_flujo_basico.pdf>]
-<./videos/shot0002.jpg, id=171, 1213.53375pt x 682.55pt>
+<./videos/shot0002.jpg, id=169, 1213.53375pt x 682.55pt>
 File: ./videos/shot0002.jpg Graphic file (type jpg)
 <use ./videos/shot0002.jpg>
-Package pdftex.def Info: ./videos/shot0002.jpg  used on input line 333.
+Package pdftex.def Info: ./videos/shot0002.jpg  used on input line 314.
 (pdftex.def)             Requested size: 160.75812pt x 90.4114pt.
  [15
 
  <./videos/shot0002.jpg>]
-<./videos/shot0003.jpg, id=181, 1075.01625pt x 604.2575pt>
+<./videos/shot0003.jpg, id=179, 1075.01625pt x 604.2575pt>
 File: ./videos/shot0003.jpg Graphic file (type jpg)
 <use ./videos/shot0003.jpg>
-Package pdftex.def Info: ./videos/shot0003.jpg  used on input line 354.
+Package pdftex.def Info: ./videos/shot0003.jpg  used on input line 335.
 (pdftex.def)             Requested size: 160.75812pt x 90.35811pt.
  [16
 
  <./videos/shot0003.jpg>]
-<./videos/shot0004.jpg, id=191, 685.56125pt x 385.44pt>
+<./videos/shot0004.jpg, id=189, 685.56125pt x 385.44pt>
 File: ./videos/shot0004.jpg Graphic file (type jpg)
 <use ./videos/shot0004.jpg>
-Package pdftex.def Info: ./videos/shot0004.jpg  used on input line 373.
+Package pdftex.def Info: ./videos/shot0004.jpg  used on input line 354.
 (pdftex.def)             Requested size: 160.75812pt x 90.37843pt.
  [17
 
  <./videos/shot0004.jpg>]
-<./Figures/ciaa_en_madera.jpg, id=200, 1903.11pt x 1222.5675pt>
+<./Figures/ciaa_en_madera.jpg, id=198, 1903.11pt x 1222.5675pt>
 File: ./Figures/ciaa_en_madera.jpg Graphic file (type jpg)
 <use ./Figures/ciaa_en_madera.jpg>
-Package pdftex.def Info: ./Figures/ciaa_en_madera.jpg  used on input line 377.
+Package pdftex.def Info: ./Figures/ciaa_en_madera.jpg  used on input line 358.
 (pdftex.def)             Requested size: 321.51625pt x 206.52788pt.
  [18
 
@@ -1409,13 +1407,13 @@ Package pdftex.def Info: ./Figures/ciaa_en_madera.jpg  used on input line 377.
 ] [20
 
 ]
-<./Figures/sanchez.jpg, id=217, 261.97874pt x 193.72375pt>
+<./Figures/sanchez.jpg, id=215, 261.97874pt x 193.72375pt>
 File: ./Figures/sanchez.jpg Graphic file (type jpg)
 <use ./Figures/sanchez.jpg>
-Package pdftex.def Info: ./Figures/sanchez.jpg  used on input line 421.
+Package pdftex.def Info: ./Figures/sanchez.jpg  used on input line 402.
 (pdftex.def)             Requested size: 321.51625pt x 237.75557pt.
 
-Overfull \vbox (14.29935pt too high) detected at line 421
+Overfull \vbox (14.29935pt too high) detected at line 402
  []
 
 [21
@@ -1423,7 +1421,7 @@ Overfull \vbox (14.29935pt too high) detected at line 421
  <./Figures/sanchez.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 427.
+(hyperref)                removing `\translate ' on input line 408.
 
 (f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.bbl
 
@@ -1441,26 +1439,26 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 \tf@snm=\write8
 \openout8 = `template.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 435.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 435.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
  (f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 435.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 435.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D9694BC855D0C50CCAD6B8D6DEDF7609;41.
  ) 
 Here is how much of TeX's memory you used:
- 25009 strings out of 492452
- 481192 string characters out of 3129775
+ 25003 strings out of 492452
+ 480883 string characters out of 3129775
  541403 words of memory out of 3000000
- 28726 multiletter control sequences out of 15000+200000
+ 28720 multiletter control sequences out of 15000+200000
  308229 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,77p,822b,1410s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Lavigna Gonzalo/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/fira/fir_iln36p.enc}{C:/Users/Lavigna Gonzalo/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/fira/fir_2mfh3o.enc}<C:/Users/Lavigna Gonzalo/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fira/FiraSans-Bold.pfb><C:/Users/Lavigna Gonzalo/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fira/FiraSans-Italic.pfb><C:/Users/Lavigna Gonzalo/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/fira/FiraSans-Regular.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.pdf (22 pages, 1656407 bytes).
+Output written on f:/GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.pdf (22 pages, 1488235 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
+ 265 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
