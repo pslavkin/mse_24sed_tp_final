@@ -1,24 +1,3 @@
-\begin{thebibliography}{1}
-
-\bibitem{ncurses}
-Thomas Dickey.
-\newblock {\em https://www.gnu.org/software/ncurses/}.
-
-\bibitem{url:wolfcut}
-https://wolfcut.es.
-\newblock {\em Fabricante de maquinas CNC}.
-
-\bibitem{datasheet:rs274}
-https://ws680.nist.gov/publication/get\_pdf.cfm?pub\_id =~823374.
-\newblock Rs274 interpreter.
-
-\bibitem{url:gnuplot}
-http://www.gnuplot.info/.
-\newblock {\em Herramienta portable para la generación de gráficos.}
-
-\bibitem{datasheet:powerstep01}
-STMicroelectronics.
-\newblock System-in-package integrating microstepping controller and 10 a power
-  mosfets.
+\begin{thebibliography}{}
 
 \end{thebibliography}

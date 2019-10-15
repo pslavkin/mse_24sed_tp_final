@@ -1,535 +1,572 @@
-PWD /mnt/data/users/pablo_slavkin/academic/mse/24sed/tp_final/presentacion
-INPUT /etc/texmf/web2c/texmf.cnf
-INPUT /usr/share/texmf/web2c/texmf.cnf
-INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
-INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT template.tex
-OUTPUT template.log
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-mappings.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/theme/beamerthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/theme/beamerthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonbook.pdf
-OUTPUT template.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonbook.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonbook.20.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonbook.20.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.20.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericonarticle.20.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericononline.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericononline.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericononline.20.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/art/beamericononline.20.pdf
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemedefault.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemedefault.sty
-INPUT beamerthemefocus.sty
-INPUT beamerthemefocus.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss1095.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/FiraSans.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/FiraSans.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mweights/mweights.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/mweights/mweights.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fontaxes/fontaxes.sty
-INPUT FiraMono.sty
-INPUT FiraMono.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT beamercolorthemefocus.sty
-INPUT beamercolorthemefocus.sty
-INPUT beamerfontthemefocus.sty
-INPUT beamerfontthemefocus.sty
-INPUT beamerinnerthemefocus.sty
-INPUT beamerinnerthemefocus.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-INPUT beamerouterthemefocus.sty
-INPUT beamerouterthemefocus.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-INPUT template.aux
-INPUT template.aux
-OUTPUT template.aux
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/T1FiraSans-OsF.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/fira/T1FiraSans-OsF.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT template.out
-INPUT template.out
-INPUT template.out
-INPUT template.out
-INPUT ./template.out
-INPUT ./template.out
-OUTPUT template.out
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
-INPUT /usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
-INPUT template.nav
-INPUT template.nav
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-sc-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-sc-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-sc-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-sc-t1.tfm
-INPUT Images/cnc_icon.png
-INPUT ./Images/cnc_icon.png
-INPUT ./Images/cnc_icon.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-sc-t1.tfm
-INPUT ./Figures/logo_fiuba.pdf
-INPUT ./Figures/logo_fiuba.pdf
-INPUT ./Figures/logo_fiuba.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-sc-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-sc-t1--base.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Book-osf-sc-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-sc-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Book-osf-sc-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-sc-t1--base.tfm
-INPUT ./Figures/wolfcut_cnc.jpg
-INPUT ./Figures/wolfcut_cnc.jpg
-INPUT ./Figures/wolfcut_cnc.jpg
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-BookItalic-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-BookItalic-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-BookItalic-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-BookItalic-osf-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Book-osf-sc-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-sc-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Book-osf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Book-osf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Book-osf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Book-osf-t1--base.tfm
-INPUT ./Figures/tripas_wolfcut.jpg
-INPUT ./Figures/tripas_wolfcut.jpg
-INPUT ./Figures/tripas_wolfcut.jpg
-INPUT ./Figures/prototipo_hardware4.jpg
-INPUT ./Figures/prototipo_hardware4.jpg
-INPUT ./Figures/prototipo_hardware4.jpg
-INPUT ./Figures/xnucleo.jpg
-INPUT ./Figures/xnucleo.jpg
-INPUT ./Figures/xnucleo.jpg
-INPUT ./Figures/kicad_top.png
-INPUT ./Figures/kicad_top.png
-INPUT ./Figures/kicad_top.png
-INPUT ./Figures/proto_pap_top.jpg
-INPUT ./Figures/proto_pap_top.jpg
-INPUT ./Figures/proto_pap_top.jpg
-INPUT ./Figures/proto_pap_bot.jpg
-INPUT ./Figures/proto_pap_bot.jpg
-INPUT ./Figures/proto_pap_bot.jpg
-INPUT ./Figures/tivac.jpg
-INPUT ./Figures/tivac.jpg
-INPUT ./Figures/tivac.jpg
-INPUT ./videos/shot0001.jpg
-INPUT ./videos/shot0001.jpg
-INPUT ./videos/shot0001.jpg
-OUTPUT template.vrb
-INPUT template.vrb
-INPUT template.vrb
-INPUT ./Figures/exact_stop.pdf
-INPUT ./Figures/exact_stop.pdf
-INPUT ./Figures/exact_stop.pdf
-OUTPUT template.vrb
-INPUT template.vrb
-INPUT template.vrb
-INPUT ./Figures/gcode.pdf
-INPUT ./Figures/gcode.pdf
-INPUT ./Figures/gcode.pdf
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-BookItalic-osf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-BookItalic-osf-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-BookItalic-osf-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-BookItalic-osf-t1--base.tfm
-OUTPUT template.vrb
-INPUT template.vrb
-INPUT template.vrb
-INPUT ./Figures/gcode2.pdf
-INPUT ./Figures/gcode2.pdf
-INPUT ./Figures/gcode2.pdf
-INPUT ./Figures/firmware_flujo_basico.pdf
-INPUT ./Figures/firmware_flujo_basico.pdf
-INPUT ./Figures/firmware_flujo_basico.pdf
-INPUT ./videos/shot0002.jpg
-INPUT ./videos/shot0002.jpg
-INPUT ./videos/shot0002.jpg
-INPUT ./videos/shot0003.jpg
-INPUT ./videos/shot0003.jpg
-INPUT ./videos/shot0003.jpg
-INPUT ./videos/shot0004.jpg
-INPUT ./videos/shot0004.jpg
-INPUT ./videos/shot0004.jpg
-INPUT ./Figures/ciaa_en_madera.jpg
-INPUT ./Figures/ciaa_en_madera.jpg
-INPUT ./Figures/ciaa_en_madera.jpg
-INPUT ./Figures/sanchez.jpg
-INPUT ./Figures/sanchez.jpg
-INPUT ./Figures/sanchez.jpg
-INPUT template.bbl
-INPUT template.bbl
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-sc-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-BoldItalic-osf-sc-t1.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-BoldItalic-osf-sc-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-BoldItalic-osf-sc-t1--base.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fira/FiraSans-Bold-osf-sc-t1.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fira/FiraSans-Bold-osf-sc-t1--base.tfm
-OUTPUT template.nav
-OUTPUT template.toc
-OUTPUT template.snm
-INPUT template.aux
-INPUT ./template.out
-INPUT ./template.out
-INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_765q6w.enc
-INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/fira/fir_7gpamp.enc
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-BoldItalic.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-Book.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fira/FiraSans-BookItalic.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb
+PWD f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion
+INPUT C:\Users\Lavigna Gonzalo\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.tex
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.log
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamer.cls
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamer.cls
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemodes.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemodes.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasedecode.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasedecode.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseoptions.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\xxcolor.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\xxcolor.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaserequires.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaserequires.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasecompatibility.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasecompatibility.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasefont.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasefont.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\sansmathaccent.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\sansmathaccent.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\sansmathaccent\sansmathaccent.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\filehook\filehook.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\filehook\filehook.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\filehook\filehook.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetranslator.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetranslator.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemisc.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasemisc.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetwoscreens.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetwoscreens.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseoverlay.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseoverlay.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetitle.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetitle.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasesection.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasesection.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframe.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframe.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseverbatim.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseverbatim.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframesize.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframesize.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframecomponents.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseframecomponents.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasecolor.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasecolor.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasenotes.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasenotes.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetoc.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetoc.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetemplates.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetemplates.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseauxtemplates.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseauxtemplates.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseboxes.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaseboxes.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaselocalstructure.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbaselocalstructure.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasenavigation.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasenavigation.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetheorems.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasetheorems.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasethemes.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerbasethemes.sty
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss10.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerfontthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerfontthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamercolorthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamercolorthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerinnerthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerinnerthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonbook.pdf
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonbook.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonbook.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonbook.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonbook.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonbook.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonarticle.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonarticle.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonarticle.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonarticle.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonarticle.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericonarticle.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericononline.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericononline.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericononline.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericononline.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericononline.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamericononline.20.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerouterthemedefault.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\beamerouterthemedefault.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamerthemefocus.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamerthemefocus.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecss1095.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\fira\FiraSans.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\fira\FiraSans.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\mweights\mweights.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\mweights\mweights.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\fontaxes\fontaxes.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\fontaxes\fontaxes.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\FiraMono.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\FiraMono.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamercolorthemefocus.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamercolorthemefocus.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamerfontthemefocus.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamerfontthemefocus.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamerinnerthemefocus.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamerinnerthemefocus.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamerouterthemefocus.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\beamerouterthemefocus.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\appendixnumberbeamer\appendixnumberbeamer.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\appendixnumberbeamer\appendixnumberbeamer.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.def
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\adjustbox\tc-pdftex.def
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.aux
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.aux
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.aux
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\fira\t1firasans-osf.fd
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\fira\t1firasans-osf.fd
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-basic-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-basic-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-bibliography-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-bibliography-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-environment-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-environment-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-months-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-months-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-numbers-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-numbers-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-theorem-dictionary-English.dict
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\tex\latex\translator\translator-theorem-dictionary-English.dict
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.nav
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.nav
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-sc-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Bold-osf-sc-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-sc-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-sc-t1.tfm
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\Images\Connectivity.jpg
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\Images\Connectivity.jpg
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\Images\Connectivity.jpg
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\Images\Connectivity.jpg
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\Images\Connectivity.jpg
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-sc-t1.tfm
+INPUT Figures\logo_fiuba.pdf
+INPUT .\Figures\logo_fiuba.pdf
+INPUT .\Figures\logo_fiuba.pdf
+INPUT .\Figures\logo_fiuba.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Bold-osf-sc-t1.vf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Bold-osf-sc-t1--base.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Regular-osf-sc-t1.vf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-sc-t1--base.tfm
+INPUT Figures\wolfcut_cnc.jpg
+INPUT .\Figures\wolfcut_cnc.jpg
+INPUT .\Figures\wolfcut_cnc.jpg
+INPUT .\Figures\wolfcut_cnc.jpg
+INPUT .\Figures\wolfcut_cnc.jpg
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Italic-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Italic-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Italic-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmss8.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Italic-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Italic-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Italic-osf-t1.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Regular-osf-sc-t1.vf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-sc-t1--base.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Regular-osf-t1.vf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1--base.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Regular-osf-t1.vf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1--base.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Regular-osf-t1.vf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Regular-osf-t1--base.tfm
+INPUT Figures\tripas_wolfcut.jpg
+INPUT .\Figures\tripas_wolfcut.jpg
+INPUT .\Figures\tripas_wolfcut.jpg
+INPUT .\Figures\tripas_wolfcut.jpg
+INPUT .\Figures\tripas_wolfcut.jpg
+INPUT Figures\prototipo_hardware4.jpg
+INPUT .\Figures\prototipo_hardware4.jpg
+INPUT .\Figures\prototipo_hardware4.jpg
+INPUT .\Figures\prototipo_hardware4.jpg
+INPUT .\Figures\prototipo_hardware4.jpg
+INPUT Figures\xnucleo.jpg
+INPUT .\Figures\xnucleo.jpg
+INPUT .\Figures\xnucleo.jpg
+INPUT .\Figures\xnucleo.jpg
+INPUT .\Figures\xnucleo.jpg
+INPUT Figures\kicad_top.png
+INPUT .\Figures\kicad_top.png
+INPUT .\Figures\kicad_top.png
+INPUT .\Figures\kicad_top.png
+INPUT .\Figures\kicad_top.png
+INPUT Figures\proto_pap_top.jpg
+INPUT .\Figures\proto_pap_top.jpg
+INPUT .\Figures\proto_pap_top.jpg
+INPUT .\Figures\proto_pap_top.jpg
+INPUT .\Figures\proto_pap_top.jpg
+INPUT Figures\proto_pap_bot.jpg
+INPUT .\Figures\proto_pap_bot.jpg
+INPUT .\Figures\proto_pap_bot.jpg
+INPUT .\Figures\proto_pap_bot.jpg
+INPUT .\Figures\proto_pap_bot.jpg
+INPUT Figures\tivac.jpg
+INPUT .\Figures\tivac.jpg
+INPUT .\Figures\tivac.jpg
+INPUT .\Figures\tivac.jpg
+INPUT .\Figures\tivac.jpg
+INPUT videos\shot0001.jpg
+INPUT .\videos\shot0001.jpg
+INPUT .\videos\shot0001.jpg
+INPUT .\videos\shot0001.jpg
+INPUT .\videos\shot0001.jpg
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT Figures\exact_stop.pdf
+INPUT .\Figures\exact_stop.pdf
+INPUT .\Figures\exact_stop.pdf
+INPUT .\Figures\exact_stop.pdf
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT Figures\gcode.pdf
+INPUT .\Figures\gcode.pdf
+INPUT .\Figures\gcode.pdf
+INPUT .\Figures\gcode.pdf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Italic-osf-t1.vf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Italic-osf-t1--base.tfm
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\vf\public\fira\FiraSans-Italic-osf-t1.vf
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\tfm\public\fira\FiraSans-Italic-osf-t1--base.tfm
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.vrb
+INPUT Figures\gcode2.pdf
+INPUT .\Figures\gcode2.pdf
+INPUT .\Figures\gcode2.pdf
+INPUT .\Figures\gcode2.pdf
+INPUT Figures\firmware_flujo_basico.pdf
+INPUT .\Figures\firmware_flujo_basico.pdf
+INPUT .\Figures\firmware_flujo_basico.pdf
+INPUT .\Figures\firmware_flujo_basico.pdf
+INPUT videos\shot0002.jpg
+INPUT .\videos\shot0002.jpg
+INPUT .\videos\shot0002.jpg
+INPUT .\videos\shot0002.jpg
+INPUT .\videos\shot0002.jpg
+INPUT videos\shot0003.jpg
+INPUT .\videos\shot0003.jpg
+INPUT .\videos\shot0003.jpg
+INPUT .\videos\shot0003.jpg
+INPUT .\videos\shot0003.jpg
+INPUT videos\shot0004.jpg
+INPUT .\videos\shot0004.jpg
+INPUT .\videos\shot0004.jpg
+INPUT .\videos\shot0004.jpg
+INPUT .\videos\shot0004.jpg
+INPUT Figures\ciaa_en_madera.jpg
+INPUT .\Figures\ciaa_en_madera.jpg
+INPUT .\Figures\ciaa_en_madera.jpg
+INPUT .\Figures\ciaa_en_madera.jpg
+INPUT .\Figures\ciaa_en_madera.jpg
+INPUT Figures\sanchez.jpg
+INPUT .\Figures\sanchez.jpg
+INPUT .\Figures\sanchez.jpg
+INPUT .\Figures\sanchez.jpg
+INPUT .\Figures\sanchez.jpg
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.bbl
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.bbl
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.nav
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.toc
+OUTPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.snm
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.aux
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+INPUT f:\GIT\CIAA\15-mse_24sed_tp_final\presentacion\template.out
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\enc\dvips\fira\fir_iln36p.enc
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\enc\dvips\fira\fir_2mfh3o.enc
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\type1\public\fira\FiraSans-Bold.pfb
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\type1\public\fira\FiraSans-Bold.pfb
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\type1\public\fira\FiraSans-Italic.pfb
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\type1\public\fira\FiraSans-Italic.pfb
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\type1\public\fira\FiraSans-Regular.pfb
+INPUT C:\Users\Lavigna Gonzalo\AppData\Roaming\MiKTeX\2.9\fonts\type1\public\fira\FiraSans-Regular.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmss10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmss10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\symbols\msam10.pfb

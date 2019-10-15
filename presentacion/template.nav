@@ -40,6 +40,7 @@
 \headcommand {\beamer@framepages {20}{20}}
 \headcommand {\slideentry {0}{0}{21}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
+\headcommand {\gdef \insertmainframenumber {20}}
 \headcommand {\partentry {\translate {Appendix}}{1}}
 \headcommand {\beamer@partpages {1}{21}}
 \headcommand {\beamer@sectionpages {1}{21}}
@@ -51,6 +52,6 @@
 \headcommand {\beamer@subsectionpages {22}{22}}
 \headcommand {\beamer@sectionpages {22}{22}}
 \headcommand {\beamer@documentpages {22}}
-\headcommand {\def \inserttotalframenumber {1}}
-\headcommand {\def \inserttotalframenumber {20}}
-\headcommand {\def \appendixtotalframenumber {1}}
+\headcommand {\gdef \inserttotalframenumber {1}}
+\headcommand {\gdef \inserttotalframenumber {20}}
+\headcommand {\gdef \appendixtotalframenumber {1}}
