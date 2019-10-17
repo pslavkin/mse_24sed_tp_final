@@ -1,0 +1,269 @@
+Con esto instalamos docker
+ 1998  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+ 1999  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+ 2000  sudo apt-get update
+ 2001  apt-cache policy docker-ce
+ 2002  sudo apt-get install -y docker-ce
+ 2003  sudo systemctl status docker
+ 2004  history
+
+
+Para instalar una influx db
+curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+source /etc/lsb-release
+echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+
+sudo apt-get update && sudo apt-get install influxdb
+sudo service influxdb start
+
+Para correr la linea de comandos para la influx db
+
+
+
+sudo python3 -m pip install paho-mqtt
+pip3 install influxdb
+
+Para instalar el grafana 
+https://grafana.com/docs/installation/debian/
+
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb beta main"
+wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install grafana
+
+
+Aca tenemos un ejemplo para grafana e influx db
+http://bicofino.io/2015/12/10/using-grafana-with-influxdb/
+
+
+Instalamos en python con Anaconda 
+
+Para correr y ver la Base de datos
+influx -precision rfc3339
+SHOW DATABASES
+
+Aca encontramos un caso de uso
+http://bicofino.io/2015/12/10/using-grafana-with-influxdb/
+
+En el grafana configurar la contraseñal como root root para poder acceder a los datos
+
+sudo service grafana-server restart
+
+
+Instlar en python para mqtt.
+https://anaconda.org/sci-bots/paho-mqtt
+conda install -c sci-bots paho-mqtt.
+conda install -c sci-bots/label/dropbot paho-mqtt 
+
+https://anaconda.org/pdrops/influxdb
+conda install -c pdrops influxdb
+
+
+Aárentemente el Anaconda estaba funcionando con una version vieja de Python vamos a tratar de trabajar por consola. 
+
+sudo update-alternatives --config python
+
+La mejor manera que encontramos fue
+alias python=python3
+.https://askubuntu.com/questions/320996/how-to-make-python-program-command-execute-python-3
+
+Esto es lo que adquirimos de 
+https://thingsmatic.com/2017/03/02/influxdb-and-grafana-for-sensor-time-series/
+
+Recordar de poner bien siempre nuestra IP.
+
+
+Veamos que hace el kapacior
+Se genera un projecto para otro NodeMCU para que lea el MPU9250<
+
+
+
+Esto es para tener en mente de configurar la beaglebone para conectarse a la red local
+https://elementztechblog.wordpress.com/2014/12/22/sharing-internet-using-network-over-usb-in-beaglebone-black/
+
+
+ssh 192.168.7.2 -l root
+
+In the BBB console type the following
+
+ifconfig usb0 192.168.7.2
+route add default gw 192.168.7.1
+
+ 
+
+In the linux console of host system type
+
+sudo su
+#wlan0 is my internet facing interface, eth5 is the BeagleBone USB connection
+ifconfig eth5 192.168.7.1
+iptables --table nat --append POSTROUTING --out-interface wlan0 -j MASQUERADE
+iptables --append FORWARD --in-interface eth5 -j ACCEPT
+echo 1 > /proc/sys/net/ipv4/ip_forward
+
+
+Pines del MPU 9250
+https://steve.fi/Hardware/nodemcu/default-pins/
+
+
+Esto es para instalar el setuptool de python 3
+sudo apt-get install -y python3-setuptools
+
+
+
+
+
+Permitir que el root se pueda asignar a ssh
+$ ssh root@10.1.1.12
+	
+root@10.1.1.12's password: 
+Permission denied, please try again.
+root@10.1.1.12's password: 
+Permission denied, please try again.
+root@10.1.1.12's password: 
+Permission denied (publickey,password).
+
+To enable SSH login for a root user on Debian Linux system you need to first configure SSH server. Open /etc/ssh/sshd_config and change the following line:
+
+FROM:
+PermitRootLogin without-password
+TO:
+PermitRootLogin yes
+
+Once you made the above change restart your SSH server:
+
+# /etc/init.d/ssh restart
+[ ok ] Restarting ssh (via systemctl): ssh.service.
+
+
+Esto es para poner una version de python que funcione e ir cambiandola:
+87
+
+From the comment:
+
+sudo update-alternatives --config python
+
+Will show you an error:
+
+update-alternatives: error: no alternatives for python3 
+
+You need to update your update-alternatives , then you will be able to set your default python version.
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 1
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
+
+Then run :
+
+sudo update-alternatives --config python
+
+Set python3.6 as default.
+
+Or use the following command to set python3.6 as default:
+
+sudo update-alternatives  --set python /usr/bin/python3.6
+
+
+
+df command – Shows the amount of disk space used and available on Linux file systems.
+
+
+Con esto instalamos el mosquitto en la beaglebone black 
+https://www.microdev.it/wp/en/2017/03/12/mqtt-with-beaglebone-and-esp8266-mosquitto-installation-on-beaglebone/
+
+Para instalar el transport https
+sudo apt install apt-transport-https
+Instalar influx db
+sudo apt-get update && sudo apt-get install influxdb
+.
+
+
+
+
+http://pdacontrolen.com/complete-installation-grafana-dashboard-in-raspberry-pi-3-b-b/
+Grafana Installation
+
+Verify commands in Grafana for ARM, in case there is a new version available..
+
+Recommendation: For a more detailed explanation step by step I recommend watching the full video Installation Dashboard Grafana in Raspberry Pi 3 B or B +: PDAControl available on our Youtube channel PDAControl.
+
+Update list of available packages
+sudo apt update 
+1
+	
+sudo apt update 
+
+Update list of available packages
+sudo apt upgrade -y
+1
+	
+sudo apt upgrade -y
+
+Remove obsolete packages
+ sudo apt autoremove -y
+1
+	
+ sudo apt autoremove -y
+
+download Grafana package
+wget https://dl.grafana.com/oss/release/grafana_5.4.0_armhf.deb
+1
+	
+wget https://dl.grafana.com/oss/release/grafana_5.4.0_armhf.deb
+
+Install Grafana package
+sudo dpkg -i grafana_5.4.0_armhf.deb
+1
+	
+sudo dpkg -i grafana_5.4.0_armhf.deb
+
+Update packages
+sudo apt-get upgrade
+1
+
+
+Conmfiguracion del grafana
+https://grafana.com/docs/installation/configuration/ 
+	
+sudo apt-get upgrade
+
+Fix a lack of missing packages
+sudo apt --fix-broken install
+1
+	
+sudo apt --fix-broken install
+
+Set up service
+sudo /bin/systemctl daemon-reload
+1
+	
+sudo /bin/systemctl daemon-reload
+
+Enable Grafana service
+sudo /bin/systemctl enable grafana-server
+1
+	
+sudo /bin/systemctl enable grafana-server
+
+Grafana service starts
+sudo /bin/systemctl start grafana-server
+1
+	
+sudo /bin/systemctl start grafana-server
+
+Ready installed and running.
+
+Note: Grafana will automatically start when we start our Raspberry pi.
+
+
+
+Con esto lanzo la base de datos
+influxd -config /etc/influxdb/influxdb.conf
+CREATE DATABASE mydb
+SHOW DATABASES
+
+DROP DATABASE "NOAA_water_database"
+
+
+
+
+
