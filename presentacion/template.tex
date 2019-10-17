@@ -28,7 +28,7 @@
 
 \title{\centering{Presentación Final Sistema Embebidos Distribuidos}}
 \subtitle{\centering{\small{Pablo Slavkin, Gonzalo Lavigna}}}
-\titlegraphic{\includegraphics[scale=0.2]{Images/Connectivity.jpg}}
+%\titlegraphic{\includegraphics[scale=0.2]{Images/Connectivity.jpg}}
 %\author{MESE 2019 - FIUBA}
 
 \institute{\small{Profesores\\ Leonardo Carducci \\ Sebastian García Marra \\ Federico Zacchigna}}
@@ -68,9 +68,7 @@
 
 
 \begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
-
 	\centering{\includegraphics [scale=0.4]{./visio/Filmina_3.jpg}}
-
 \end{frame}
 
 \begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
@@ -89,328 +87,59 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Hardware - Driver de Motores de desarrollo}
-   \begin{columns}
-      \column{0.5\textwidth}
-      \includegraphics[width=\textwidth, left]{./Figures/xnucleo.jpg}
-      \column{0.5\textwidth}
-      Ventajas:
-      \begin{itemize}
-         \item{128 micropasos.}
-         \item{Calibración por software.}
-         \item{Control por SPI @ 5Mhz.}
-      \end{itemize}
-      Desventajas:
-      \begin{itemize}
-         \item{Tres drivers máximo.}
-         \item{Diseñado en 4 layers.}
-         \item{CLK no sincronizado.}
-      \end{itemize}
-   \end{columns}
+
+\begin{frame}{InfluxDB-Grafana-Desktop}
+	\centering{\includegraphics [scale=0.4]{./visio/Filmina_5.jpg}}
 \end{frame}
 
-\begin{frame}{Hardware - Driver de Motores diseñado}
-   \begin{columns}
-      \column{0.5\textwidth}
-      \includegraphics[width=\textwidth]{./Figures/kicad_top.png}
-      \column{0.5\textwidth}
-      Mejoras:
-      \begin{itemize}
-         \item{Sincronización de CLK.}
-         \item{Sin máximo de drivers.}
-         \item{Conectores enchufables.}
-         \item{Apto montaje en gabinete.}
-         \item{Diseñado en 2 layers.}
-      \end{itemize}
-   \end{columns}
-\end{frame}
 
-\begin{frame}{Hardware - PCB fabricado}
+\begin{frame}{InfluxDB-Grafana-Desktop}
    \begin{columns}
-      \column{0.5\textwidth}
-      \includegraphics[width=\textwidth]{./Figures/proto_pap_top.jpg}
-      \column{0.5\textwidth}
-      \includegraphics[width=\textwidth]{./Figures/proto_pap_bot.jpg}
-   \end{columns}
-\end{frame}
-
-\begin{frame}{Hardware - Controlador utilizado}
-   \begin{columns}
-      \column{0.5\textwidth}
-      \includegraphics[width=\textwidth, right]{./Figures/tivac.jpg}
+      \column{0.6\textwidth}
+      \includegraphics [scale = 0.2 ]{./Images/TICS.png}
       \column{0.5\textwidth}
       \begin{itemize}
-         \item{Cortex M4 @ 120Mhz.}
-         \item{1MB flash /256KB RAM.}
-         \item{Ethernet, SPI, UART, USB.}
-         \item{Unidad de punto flotante.}
-      \end{itemize}
+       \item{Caracteristicas InfluxDB:}
+        \begin{itemize}
+               \item {Open source}
+               \item {Diseñada para manejar metricas, eventos o mediciones que son time-stamped.}
+               \item {Querys similares a SQL, especializadas para obtener rangos de timepos.}
+               \item {API via HTTP puerto 8086 o JSON.}
+               \item {Es parte del entorno TICS.}
+        \end{itemize}
+    \end{itemize}
    \end{columns}
+  \end{frame}
+
+
+\begin{frame}{InfluxDB-Grafana-BBB}
+	\centering{\includegraphics [scale=0.4]{./visio/Filmina_7.jpg}}
 \end{frame}
 
-\begin{frame}{Hardware - Router de prueba - Video 1}
-   \begin{columns}
-      \column{0.5\textwidth}
-   \href{run:./videos/video1.mp4}{
-      \includegraphics[width=\textwidth, left]{./videos/shot0001.jpg}
-   }
-   \href{https://youtu.be/09bBvzOHA3k}{https://youtu.be/09bBvzOHA3k}
-      \column{0.5\textwidth}
-      Se muestra:
-      \begin{itemize}
-         \item{Router típico modificado.}
-         \item{Conexiones entre router y prototipo.}
-         \item{Trazador adaptado a husillo.}
-      \end{itemize}
-   \end{columns}
+\begin{frame}{Grafana}
+	\centering{\includegraphics [scale=0.22]{./Images/Grafana_1.png}}
 \end{frame}
 
-
-\begin{frame}{Firmware - Introducción a Gcode}
-   \begin{columns}
-      \column{0.5\textwidth}
-      \begin{itemize}
-         \item{Norma NIST RS274NGC V3 2000.}
-         \item{Archivo de texto.}
-         \item{Entrada manual.}
-         \item{Variantes segun el fabricante.}
-         \item{TDD y Ceedling para el intérprete.}
-      \end{itemize}
-
-      \column{0.5\textwidth}
-      Ejemplo de un archivo GCode:
-      \begin{itemize}
-         \item{N1 G1 X10}
-         \item{N2 G1 X-0.45 Z0020.12300}
-         \item{N3 G1 Y002.02 Z100. F600}
-      \end{itemize}
-   \end{columns}
+\begin{frame}{Grafana}
+	\centering{\includegraphics [scale=0.22]{./Images/Grafana_2.png}}
 \end{frame}
 
-
-\begin{frame}[fragile]{Firmware - Estrategia de movimientos GCode}
-   \begin{columns}
-      \column{0.5\textwidth}
-      \begin{itemize}
-         \item{Parada exacta:}
-            \begin{itemize}
-               \item{Esquinas marcadas.}
-               \item{Movimientos lentos.}
-               \item{Cortes geométricos.}
-            \end{itemize}
-         \item{Camino exacto.}
-            \begin{itemize}
-               \item{Cambia la velocidad para preservar el camino.}
-               \item{Puede detenerse.}
-               \item{Geometría con curvas.}
-               \item{Compromiso entre velocidad y precisión.}
-            \end{itemize}
-         \item{Modo continuo.}
-            \begin{itemize}
-               \item{Redondea las esquinas.}
-               \item{Intenta preservar la velocidad.}
-               \item{Trabajos rápidos pero de baja precisión.}
-            \end{itemize}
-      \end{itemize}
-      \column{0.5\textwidth}
-      \includegraphics[width=0.5\textwidth, left]{./Figures/exact_stop.pdf}
-   \end{columns}
+\begin{frame}{Grafana}
+	\centering{\includegraphics [scale=0.18]{./Images/Grafana_3.png}}
 \end{frame}
 
-\begin{frame}[fragile]{Firmware - Cálculos de movimiento de GCode}
-   \begin{columns}
-      \column{0.3\textwidth}
-      \begin{lstlisting}
-GCode:
----------------
-N1 G1 X0 Y0
-N2 X4 Y3
----------------
-      \end{lstlisting}
-Ecuaciones:
-      \begin{align}
-         \notag
-         d   &= \sqrt{d_x^2 + d_Y^2} \\
-         \notag 
-         X   &= V_0 t + \frac{1}{2} a t^2 \\
-         \notag 
-         t_f &= \frac{V_f}{a} \\
-         \notag 
-         X_f &= \frac{V_f^2}{2a}
-      \end{align}
-      \begin{lstlisting}
----------------
-      \end{lstlisting}
-      \column{0.7\textwidth}
-      \includegraphics[width=\textwidth, left]{./Figures/gcode.pdf}
-   \end{columns}
-\end{frame}
-
-\begin{frame}[fragile]{Firmware - Cálculos de movimiento de GCode}
-   \begin{columns}
-      \column{0.3\textwidth}
-\begin{align}
-   \notag
-   t_a   &= \frac{V_f}{a} \\
-   \notag
-   \\
-   \notag
-   X_a   &= \frac{V_f^2}{2a} \\
-   \notag
-   X_d   &= \frac{V_f^2}{2d} \\
-   \notag
-   X_c   &= X-X_a-X_d \\
-   \notag
-   \\
-   \notag
-   t_c   &= \frac{V_f}{X_c}
-   \notag
-\end{align}
-\boxed{Timer = t_a+t_c}
-      \column{0.7\textwidth}
-      \includegraphics[width=\textwidth, left]{./Figures/gcode2.pdf}
-   \end{columns}
-\end{frame}
-
-%\begin{frame}{Firmware - Esquema temporal}
-%   \includegraphics[width=0.8\textwidth, center]{./Figures/buffer.pdf}
-%\end{frame}
-
-\begin{frame}{Firmware - Diagrama de flujo}
-   \begin{columns}
-      \column{0.5\textwidth}
-   \includegraphics[width=\textwidth]{./Figures/firmware_flujo_basico.pdf}
-      \column{0.5\textwidth}
-      \begin{itemize}
-         \item{FreeRTOS.}
-         \item{Colas.}
-         \item{Mutex.}
-         \item{Semáforos.}
-         \item{lwIP.}
-         \item{Telnet.}
-         \item{Terminal de comandos.}
-         \item{GPIO IRQ.}
-         \item{Raíz cuadrada.}
-         \item{Operaciones de punto flotante.}
-      \end{itemize}
-   \end{columns}
-\end{frame}
-
-\begin{frame}{Firmware - Control manual - Video 2}
-   \begin{columns}
-      \column{0.5\textwidth}
-   \href{run:./videos/video2.mp4}{
-      \includegraphics[width=\textwidth, left]{./videos/shot0002.jpg}
-   }
-   \href{https://youtu.be/nLbHyZ5A89Q}{https://youtu.be/nLbHyZ5A89Q}
-      \column{0.5\textwidth}
-      Se muestra:
-      \begin{itemize}
-         \item{Conexión manual al router.}
-         \item{Acceso por ethernet y serie.}
-         \item{Envío de GCode manual.}
-      \end{itemize}
-   \end{columns}
-\end{frame}
-
-\begin{frame}{Software - Ejecutando un trazado - Video 3}
-   \begin{columns}
-      \column{0.5\textwidth}
-   \href{run:./videos/video3.mp4}{
-      \includegraphics[width=\textwidth, left]{./videos/shot0003.jpg}
-   }
-   \href{https://youtu.be/3zYNtZtnbnQ}{https://youtu.be/3zYNtZtnbnQ}
-      \column{0.5\textwidth}
-      Se muestra:
-      \begin{itemize}
-         \item{Envió de archivos Gcode.}
-         \item{Cambio de aceleración.}
-         \item{Cambio de velocidad.}
-         \item{Jog manual.}
-         \item{Visualización del recorrido.}
-         \item{Visualización de buffer.}
-         \item{Acceso desde ssh/telnet.}
-      \end{itemize}
-   \end{columns}
-\end{frame}
-
-
-\begin{frame}{Conclusión: Trabajo en Madera - Video 4}
-   \begin{columns}
-      \column{0.5\textwidth}
-   \href{run:./videos/video4.mp4}{
-      \includegraphics[width=\textwidth, left]{./videos/shot0004.jpg}
-   }
-   \href{https://youtu.be/Y-lOf3UwYmc}{https://youtu.be/Y-lOf3UwYmc}
-
-      \column{0.5\textwidth}
-      Se muestra:
-      \begin{itemize}
-         \item{Maquinado en madera.}
-         \item{1h:30m de trabajo.}
-         \item{Maquinado de esfera, recorrido geometrico y agujereado.}
-      \end{itemize}
-   \end{columns}
-\end{frame}
-
-\begin{frame}{Conclusiones - Piezas en madera y trazados}
-      \includegraphics[width=\textwidth]{./Figures/ciaa_en_madera.jpg}
-\end{frame}
 
 \begin{frame}{Conclusiones}
-   \begin{columns}
-      \column{0.5\textwidth}
-      \begin{itemize}
-         \item{Driver completo del powerstep01}
-         \item{PCB de potencia.}
-         \item{Software de control.}
-      \end{itemize}
-      \column{0.5\textwidth}
-      \begin{itemize}
-         \item{Modo camino exacto.}
-         \item{Conexion ethernet y serial.}
-         \item{Codigo parametrizado para mas motores.}
-         \item{Mecanizado de piezas.}
-      \end{itemize}
-   \end{columns}
-\end{frame}
+       Conclusiones:
+        \begin{itemize}
+            \item {Pablo aca hay que poner algo como que vimos que mysql ocupaba mas recursos\
+            tambien que estaria bueno hacer algo con el entornos TICS en especial Telegraph }
+        \end{itemize}
+  \end{frame}
 
-\begin{frame}{Próximos pasos}
-   \begin{columns}
-      \column{0.5\textwidth}
-      \begin{itemize}
-         \item{Camino exacto.}
-         \item{Modo continuo.}
-         \item{Software por red.}
-         \item{Almacenamiento interno.}
-         \item{Completar intérprete de GCode.}
-      \end{itemize}
-      \column{0.5\textwidth}
-      \begin{itemize}
-         \item{Optimización de cálculos.}
-         \item{Optimización lazo de control.}
-         \item{Validacion de PCB fabricado.}
-         \item{Fines de carrera.}
-         \item{Control de husillo.}
-      \end{itemize}
-   \end{columns}
-\end{frame}
-%%------------------------------------------------
-%
-\begin{frame}{Preguntas?}
-      \includegraphics[width=\textwidth]{./Figures/sanchez.jpg}
-\end{frame}
 
-%----------------------------------------------------------------------------------------
-%   CLOSING/SUPPLEMENTARY SLIDES
-%----------------------------------------------------------------------------------------
-
-\appendix
-%
-\begin{frame}{References}
-   \nocite{*} % Display all references regardless of if they were cited
-   \bibliography{example.bib}
-   \bibliographystyle{plain}
-\end{frame}
+  \begin{frame}{Preguntas}
+   \centering{\includegraphics [scale=0.35]{./Images/preguntas.png}}
+  \end{frame}
 
 \end{document}
