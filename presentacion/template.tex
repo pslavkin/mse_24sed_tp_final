@@ -20,6 +20,7 @@
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{pdfpages}
+\usepackage{multicol}
 %   TITLE SLIDE
 
 \title{\centering{Presentación Final Sistema Embebidos Distribuidos}}
@@ -61,7 +62,6 @@
       \end{itemize}
    \end{columns}
 \end{frame}
-
 
 \begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
 	\centering{\includegraphics [scale=0.4]{./visio/Filmina_3.jpg}}
@@ -141,13 +141,55 @@
 \end{frame}
 
 
-\begin{frame}{Conclusiones}
-       Conclusiones:
-        \begin{itemize}
+\begin{frame}{Conclusiones - Motes}
+      \begin{multicols}{2}
+			ESP:
+			\begin{itemize}
+            \item Econimico y aseguible
+            \item Bibliotecas disponibles para MQTT
+            \item Bajo consumo y dimensiones reducidas
+            \item Compatible con herramientas de Arduino
+            \item Limitada potencia de calculo
+			\end{itemize}
 
-            \item {Pablo aca hay que poner algo como que vimos que mysql ocupaba mas recursos\
-            tambien que estaria bueno hacer algo con el entornos TICS en especial Telegraph }
-        \end{itemize}
+			\columnbreak
+
+			Begale:
+			\begin{itemize}
+            \item Costo razonabe 
+            \item Funcionamiento como mote/mqtt/webserver
+            \item Herramientas de programacion open y estandard
+            \item Herramientas de programacion open
+            \item Bajo consumo de CPU
+            \item Simple y agil
+			\end{itemize}
+      \end{multicols} 
+  \end{frame}
+
+\begin{frame}{Conclusiones - Bases de datos}
+      \begin{multicols}{2}
+			MySql :
+			\begin{itemize}
+            \item Organizacion en tablas
+            \item API estandarizada
+            \item Posiblidad de linkeo de tablas
+            \item Estable y configurable
+            \item Consumo de CPU intensivo
+            \item Poco apropiada para embebidos
+			\end{itemize}
+
+			\columnbreak
+
+			influxDB:
+			\begin{itemize}
+            \item Organizacion por hash tags
+            \item Bajo consumo de CPU
+            \item Simple y agil
+            \item Configuracion limitada
+            \item ?
+            \item ?
+			\end{itemize}
+      \end{multicols} 
   \end{frame}
 
 
