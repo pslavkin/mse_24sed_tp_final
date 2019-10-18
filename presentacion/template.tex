@@ -28,6 +28,7 @@
 %\titlegraphic{\includegraphics[scale=0.2]{Images/Connectivity.jpg}}
 %\author{MESE 2019 - FIUBA}
 
+
 \institute{\small{Profesores\\ Leonardo Carducci \\ Sebastian García Marra \\ Federico Zacchigna}}
 \date{\small{Fecha \\ 18/10/2019 }}
 %------------------------------------------------
@@ -53,7 +54,7 @@
       \begin{itemize}
        \item{Generar un ejemplo práctico con las siguientes caracteristicas}
       \begin{itemize}
-                   \item{Instanciar broker MQTT en una SBC.}
+                 \item{Instanciar broker MQTT en una SBC.}
 	         \item{Comunicación entre 2 redes wifi a través de la nube.}
 	         \item{Utilización de bases de datos.}
 	         \item{Utilización de un visor de telemetría.}
@@ -83,27 +84,26 @@
    \centering \includegraphics [scale=0.62,page=5]{./visio/secuence.pdf}
 \end{frame}
 
-\begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
- \begin{itemize}
-     \item{Implementación:}
-      \begin{itemize}
-               \item{Mote 1 y Mote 2 se publica por MQTT el RSSI.}
-               \item{Mote 2 se conecta un MPU9250 y utilizando la correspondiente libreria en Arduino IDE se publica la temperatura del die.}
-               \item{A traves de Internet se conectan los motes al broker MQTT que esta en la BBB Wireless conectado dci.ddns.net.}
-	    \item{Utilizando la implementación linux de ISO II se contruye con buildroot una distribución con MySQL, Mosquitto y Python.}
-	    \item{Cuando se compila con buildroot se agregan al interprete de Python los package para un cliente MySQL y MQTT.}
-               \item{Se realizan scripts de Python para poder guardar los datos desde el broker MQTT a las tablas de la base de datos MySQL.}
-               \item{El grafana se instala utilziando el binario ARM provisto en la sección de descarga de la aplicación.}
-               \item{Los dashboards del grafaba se realizan conentandonos a la BBB wireless y utilizando el cliente Web.}
-      \end{itemize}
-  \end{itemize}
-\end{frame}
+%\begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
+% \begin{itemize}
+%     \item{Implementación:}
+%      \begin{itemize}
+%               \item{Mote 1 y Mote 2 se publica por MQTT el RSSI.}
+%               \item{Mote 2 se conecta un MPU9250 y utilizando la correspondiente libreria en Arduino IDE se publica la temperatura del die.}
+%               \item{A traves de Internet se conectan los motes al broker MQTT que esta en la BBB Wireless conectado dci.ddns.net.}
+%	    \item{Utilizando la implementación linux de ISO II se contruye con buildroot una distribución con MySQL, Mosquitto y Python.}
+%	    \item{Cuando se compila con buildroot se agregan al interprete de Python los package para un cliente MySQL y MQTT.}
+%               \item{Se realizan scripts de Python para poder guardar los datos desde el broker MQTT a las tablas de la base de datos MySQL.}
+%               \item{El grafana se instala utilziando el binario ARM provisto en la sección de descarga de la aplicación.}
+%               \item{Los dashboards del grafaba se realizan conentandonos a la BBB wireless y utilizando el cliente Web.}
+%      \end{itemize}
+%  \end{itemize}
+%\end{frame}
 
 
 \begin{frame}{InfluxDB-Grafana-Desktop}
 	\centering{\includegraphics [scale=0.4]{./visio/Filmina_5.jpg}}
 \end{frame}
-
 
 \begin{frame}{InfluxDB-Grafana-Desktop}
    \begin{columns}
@@ -111,18 +111,17 @@
       \includegraphics [scale = 0.2 ]{./Images/TICS.png}
       \column{0.5\textwidth}
       \begin{itemize}
-       \item{Caracteristicas InfluxDB:}
+       \item{Características InfluxDB:}
         \begin{itemize}
                \item {Open source}
-               \item {Diseñada para manejar metricas, eventos o mediciones que son time-stamped.}
-               \item {Querys similares a SQL, especializadas para obtener rangos de timepos.}
+               \item {Diseñada para manejar métricas, eventos o mediciones que son time-stamped.}
+               \item {Queries similares a SQL, especializadas para obtener rangos de tiempos.}
                \item {API via HTTP puerto 8086 o JSON.}
                \item {Es parte del entorno TICS.}
         \end{itemize}
     \end{itemize}
    \end{columns}
   \end{frame}
-
 
 \begin{frame}{InfluxDB-Grafana-BBB}
 	\centering{\includegraphics [scale=0.4]{./visio/Filmina_7.jpg}}
@@ -140,57 +139,64 @@
 	\centering{\includegraphics [scale=0.18]{./Images/Grafana_3.png}}
 \end{frame}
 
-
 \begin{frame}{Conclusiones - Motes}
       \begin{multicols}{2}
-			ESP:
-			\begin{itemize}
-            \item Econimico y aseguible
-            \item Bibliotecas disponibles para MQTT
-            \item Bajo consumo y dimensiones reducidas
-            \item Compatible con herramientas de Arduino
-            \item Limitada potencia de calculo
-			\end{itemize}
+      ESP:
+      \begin{itemize}
+	    \item Económico y asequible
+	    \item Bibliotecas disponibles para MQTT
+	    \item Bajo consumo y dimensiones reducidas
+	    \item Fácilmente escalable
+	    \item Compatible con herramientas de Arduino
+	    \item Limitada potencia de calculo
+	\end{itemize}
 
-			\columnbreak
+	\columnbreak
 
-			Begale:
-			\begin{itemize}
-            \item Costo razonabe 
-            \item Funcionamiento como mote/mqtt/webserver
-            \item Herramientas de programacion open y estandard
-            \item Herramientas de programacion open
-            \item Bajo consumo de CPU
-            \item Simple y agil
-			\end{itemize}
+	Begale:
+	\begin{itemize}
+	    \item Costo razonabe 
+	    \item Funcionamiento como mote/mqtt/webserver
+	    \item Herramientas de programación open y standard
+	    \item Herramientas de programación open
+	    \item Bajo consumo de CPU
+	    \item Simple y ágil
+	\end{itemize}
       \end{multicols} 
   \end{frame}
 
 \begin{frame}{Conclusiones - Bases de datos}
       \begin{multicols}{2}
-			MySql :
-			\begin{itemize}
-            \item Organizacion en tablas
-            \item API estandarizada
-            \item Posiblidad de linkeo de tablas
+	MySql :
+	\begin{itemize}
+            \item Organización en tablas
+            \item Posibilidad de linkeo de tablas
             \item Estable y configurable
             \item Consumo de CPU intensivo
             \item Poco apropiada para embebidos
-			\end{itemize}
+	\end{itemize}
 
-			\columnbreak
+	\columnbreak
 
-			influxDB:
-			\begin{itemize}
-            \item Organizacion por hash tags
+	influxDB:
+	\begin{itemize}
+            \item Organización por hash tags
             \item Bajo consumo de CPU
-            \item Simple y agil
-            \item Configuracion limitada
-            \item ?
-            \item ?
-			\end{itemize}
+            \item Simple y ágil
+            \item Configuración limitada
+            \item Queries optimizadas para adquisición por slots temporales
+	\end{itemize}
       \end{multicols} 
   \end{frame}
+
+\begin{frame}{Trabajos futuros}
+      \begin{itemize}
+	    \item Investigar opciones con Telegraf para evitar scripts intermedios
+	    \item Investigar opciones con Cronograf como alternativa a Grafana
+	    \item Analizar el uso de Dockers
+	    \item Implementar aplicación para publicar alarmas por el broker. Ej: temp1>10 mosquitto\_pub -m apagar\_calefactor 
+	\end{itemize}
+\end{frame}
 
 
   \begin{frame}{Preguntas}
