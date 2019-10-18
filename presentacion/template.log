@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.9.30)  18 OCT 2019 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2018.9.30)  18 OCT 2019 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1876,38 +1876,7 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/logo_fiuba.pdf>]
- <./visio/Filmina_2.jpg, id=43, 271.0125pt x 444.15938pt>
-File: ./visio/Filmina_2.jpg Graphic file (type jpg)
-
-<use ./visio/Filmina_2.jpg>
-Package pdftex.def Info: ./visio/Filmina_2.jpg used on input line 65.
-(pdftex.def)             Requested size: 128.60452pt x 210.77457pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 65.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 65.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 65.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 65.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 65.
-LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 65.
- [2
-
- <./visio/Filmina_2.jpg>] <./visio/Filmina_3.jpg, id=51, 796.47563pt x 560.0925
-pt>
+ <./visio/Filmina_3.jpg, id=43, 796.47563pt x 560.0925pt>
 File: ./visio/Filmina_3.jpg Graphic file (type jpg)
 
 <use ./visio/Filmina_3.jpg>
@@ -1917,10 +1886,10 @@ Package pdftex.def Info: ./visio/Filmina_3.jpg used on input line 69.
 Overfull \vbox (0.5648pt too high) detected at line 69
  []
 
-[3
+[2
 
  <./visio/Filmina_3.jpg>]
-<./visio/secuence.pdf, id=57, page=1, 455.7025pt x 370.38374pt>
+<./visio/secuence.pdf, id=50, page=1, 455.7025pt x 370.38374pt>
 File: ./visio/secuence.pdf Graphic file (type pdf)
 
 <use ./visio/secuence.pdf, page 1>
@@ -1930,10 +1899,10 @@ Package pdftex.def Info: ./visio/secuence.pdf, page1 used on input line 73.
 Overfull \vbox (6.16733pt too high) detected at line 73
  []
 
-[4
+[3
 
  <./visio/secuence.pdf>]
-<./visio/secuence.pdf, id=185, page=2, 455.7025pt x 370.38374pt>
+<./visio/secuence.pdf, id=178, page=2, 455.7025pt x 370.38374pt>
 File: ./visio/secuence.pdf Graphic file (type pdf)
 
 <use ./visio/secuence.pdf, page 2>
@@ -1943,10 +1912,10 @@ Package pdftex.def Info: ./visio/secuence.pdf, page2 used on input line 76.
 Overfull \vbox (6.16733pt too high) detected at line 76
  []
 
-[5
+[4
 
  <./visio/secuence.pdf>]
-<./visio/secuence.pdf, id=314, page=3, 455.7025pt x 370.38374pt>
+<./visio/secuence.pdf, id=307, page=3, 455.7025pt x 370.38374pt>
 File: ./visio/secuence.pdf Graphic file (type pdf)
 
 <use ./visio/secuence.pdf, page 3>
@@ -1956,10 +1925,10 @@ Package pdftex.def Info: ./visio/secuence.pdf, page3 used on input line 79.
 Overfull \vbox (6.16733pt too high) detected at line 79
  []
 
-[6
+[5
 
  <./visio/secuence.pdf>]
-<./visio/secuence.pdf, id=443, page=4, 455.7025pt x 370.38374pt>
+<./visio/secuence.pdf, id=436, page=4, 455.7025pt x 370.38374pt>
 File: ./visio/secuence.pdf Graphic file (type pdf)
 
 <use ./visio/secuence.pdf, page 4>
@@ -1969,68 +1938,76 @@ Package pdftex.def Info: ./visio/secuence.pdf, page4 used on input line 82.
 Overfull \vbox (6.16733pt too high) detected at line 82
  []
 
-[7
+[6
 
  <./visio/secuence.pdf>]
-<./visio/secuence.pdf, id=572, page=5, 455.7025pt x 370.38374pt>
-File: ./visio/secuence.pdf Graphic file (type pdf)
-
-<use ./visio/secuence.pdf, page 5>
-Package pdftex.def Info: ./visio/secuence.pdf, page5 used on input line 85.
-(pdftex.def)             Requested size: 282.53262pt x 229.63554pt.
-
-Overfull \vbox (6.16733pt too high) detected at line 85
- []
-
-[8
-
- <./visio/secuence.pdf>]
-<./visio/Filmina_5.jpg, id=701, 769.37437pt x 551.05875pt>
+<./visio/Filmina_5.jpg, id=564, 769.37437pt x 551.05875pt>
 File: ./visio/Filmina_5.jpg Graphic file (type jpg)
 
 <use ./visio/Filmina_5.jpg>
 Package pdftex.def Info: ./visio/Filmina_5.jpg used on input line 106.
 (pdftex.def)             Requested size: 307.7443pt x 220.41959pt.
- [9
+ [7
 
  <./visio/Filmina_5.jpg>]
-<./Images/TICS.png, id=707, 932.48375pt x 555.07375pt>
+<./Images/TICS.png, id=571, 932.48375pt x 555.07375pt>
 File: ./Images/TICS.png Graphic file (type png)
  <use ./Images/TICS.png>
 Package pdftex.def Info: ./Images/TICS.png used on input line 124.
 (pdftex.def)             Requested size: 186.49344pt x 111.01277pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
-[10
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
 
- <./Images/TICS.png>]
-<./visio/Filmina_7.jpg, id=713, 769.37437pt x 551.05875pt>
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 124.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 124.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
+(Font)              scaled to size 6.0pt on input line 124.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 124.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 124.
+LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' will be
+(Font)              scaled to size 5.0pt on input line 124.
+ [8
+
+ <./Images/TICS.png>] <./visio/Filmina_7.jpg, id=579, 769.37437pt x 551.05875pt
+>
 File: ./visio/Filmina_7.jpg Graphic file (type jpg)
 
 <use ./visio/Filmina_7.jpg>
 Package pdftex.def Info: ./visio/Filmina_7.jpg used on input line 128.
 (pdftex.def)             Requested size: 307.7443pt x 220.41959pt.
- [11
+ [9
 
  <./visio/Filmina_7.jpg>]
-<./Images/Grafana_1.png, id=719, 1388.18625pt x 853.1875pt>
+<./Images/Grafana_1.png, id=585, 1388.18625pt x 853.1875pt>
 File: ./Images/Grafana_1.png Graphic file (type png)
 
 <use ./Images/Grafana_1.png>
 Package pdftex.def Info: ./Images/Grafana_1.png used on input line 132.
 (pdftex.def)             Requested size: 305.40192pt x 187.70183pt.
- [12
+ [10
 
  <./Images/Grafana_1.png>]
-<./Images/Grafana_2.png, id=725, 1375.1375pt x 850.17625pt>
+<./Images/Grafana_2.png, id=591, 1375.1375pt x 850.17625pt>
 File: ./Images/Grafana_2.png Graphic file (type png)
 
 <use ./Images/Grafana_2.png>
 Package pdftex.def Info: ./Images/Grafana_2.png used on input line 136.
 (pdftex.def)             Requested size: 302.53119pt x 187.03935pt.
- [13
+ [11
 
  <./Images/Grafana_2.png>]
-<./Images/Grafana_3.png, id=732, 1831.84375pt x 827.09pt>
+<./Images/Grafana_3.png, id=597, 1831.84375pt x 827.09pt>
 File: ./Images/Grafana_3.png Graphic file (type png)
 
 <use ./Images/Grafana_3.png>
@@ -2041,22 +2018,18 @@ Overfull \hbox (8.2014pt too wide) in paragraph at lines 140--140
  [][] 
  []
 
-[14
+[12
 
- <./Images/Grafana_3.png>] [15
-
-] [16
-
-] [17
+ <./Images/Grafana_3.png>] [13
 
 ]
-<./Images/preguntas.png, id=753, 888.31876pt x 506.89375pt>
+<./Images/preguntas.png, id=609, 888.31876pt x 506.89375pt>
 File: ./Images/preguntas.png Graphic file (type png)
 
 <use ./Images/preguntas.png>
 Package pdftex.def Info: ./Images/preguntas.png used on input line 204.
 (pdftex.def)             Requested size: 310.91621pt x 177.41547pt.
- [18
+ [14
 
  <./Images/preguntas.png>]
 \tf@nav=\write6
@@ -2079,10 +2052,10 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 (\end occurred when \ifx on line 35 was incomplete)
 (\end occurred when \unless\ifcsname on line 35 was incomplete) 
 Here is how much of TeX's memory you used:
- 24494 strings out of 493013
- 462157 string characters out of 6135682
- 534625 words of memory out of 5000000
- 27384 multiletter control sequences out of 15000+600000
+ 24470 strings out of 493013
+ 461813 string characters out of 6135682
+ 532625 words of memory out of 5000000
+ 27369 multiletter control sequences out of 15000+600000
  267327 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,83p,774b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2092,10 +2065,10 @@ st/fonts/enc/dvips/fira/fir_765q6w.enc}</usr/share/texlive/texmf-dist/fonts/typ
 e1/public/fira/FiraSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/fira/FiraSans-Book.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/symbols/msam7.pfb>
-Output written on template.pdf (18 pages, 13516357 bytes).
+Output written on template.pdf (14 pages, 10995017 bytes).
 PDF statistics:
- 787 PDF objects out of 1000 (max. 8388607)
- 436 compressed objects within 5 object streams
- 37 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 638 PDF objects out of 1000 (max. 8388607)
+ 353 compressed objects within 4 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 

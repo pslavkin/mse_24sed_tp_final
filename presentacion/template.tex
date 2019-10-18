@@ -46,23 +46,23 @@
 \end{frame}
 
 
-\begin{frame}{Motivación}
-   \begin{columns}
-      \column{0.4\textwidth}
-      \includegraphics [width=\textwidth]{./visio/Filmina_2.jpg}
-      \column{0.6\textwidth}
-      \begin{itemize}
-       \item{Generar un ejemplo práctico con las siguientes caracteristicas}
-      \begin{itemize}
-                 \item{Instanciar broker MQTT en una SBC.}
-	         \item{Comunicación entre 2 redes wifi a través de la nube.}
-	         \item{Utilización de bases de datos.}
-	         \item{Utilización de un visor de telemetría.}
-	         \item{Implementación con distintas plataformas de HW.}
-      \end{itemize}
-      \end{itemize}
-   \end{columns}
-\end{frame}
+%\begin{frame}{Motivación}
+%   \begin{columns}
+%      \column{0.4\textwidth}
+%      \includegraphics [width=\textwidth]{./visio/Filmina_2.jpg}
+%      \column{0.6\textwidth}
+%      \begin{itemize}
+%       \item{Generar un ejemplo práctico con las siguientes caracteristicas}
+%      \begin{itemize}
+%                 \item{Instanciar broker MQTT en una SBC.}
+%	         \item{Comunicación entre 2 redes wifi a través de la nube.}
+%	         \item{Utilización de bases de datos.}
+%	         \item{Utilización de un visor de telemetría.}
+%	         \item{Implementación con distintas plataformas de HW.}
+%      \end{itemize}
+%      \end{itemize}
+%   \end{columns}
+%\end{frame}
 
 \begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
 	\centering{\includegraphics [scale=0.4]{./visio/Filmina_3.jpg}}
@@ -80,9 +80,9 @@
 \begin{frame}{Secuencia de datos 4}
    \centering \includegraphics [scale=0.62,page=4]{./visio/secuence.pdf}
 \end{frame}
-\begin{frame}{Secuencia de datos 5}
-   \centering \includegraphics [scale=0.62,page=5]{./visio/secuence.pdf}
-\end{frame}
+%\begin{frame}{Secuencia de datos 5}
+%   \centering \includegraphics [scale=0.62,page=5]{./visio/secuence.pdf}
+%\end{frame}
 
 %\begin{frame}{Buildroot-MySQL-Grafana-BBB wireless}
 % \begin{itemize}
@@ -139,55 +139,55 @@
 	\centering{\includegraphics [scale=0.18]{./Images/Grafana_3.png}}
 \end{frame}
 
-\begin{frame}{Conclusiones - Motes}
-      \begin{multicols}{2}
-      ESP:
-      \begin{itemize}
-	    \item Económico y asequible
-	    \item Bibliotecas disponibles para MQTT
-	    \item Bajo consumo y dimensiones reducidas
-	    \item Fácilmente escalable
-	    \item Compatible con herramientas de Arduino
-	    \item Limitada potencia de calculo
-	\end{itemize}
+%\begin{frame}{Conclusiones - Motes}
+%      \begin{multicols}{2}
+%      ESP:
+%      \begin{itemize}
+%	    \item Económico y asequible
+%	    \item Bibliotecas disponibles para MQTT
+%	    \item Bajo consumo y dimensiones reducidas
+%	    \item Fácilmente escalable
+%	    \item Compatible con herramientas de Arduino
+%	    \item Limitada potencia de calculo
+%	\end{itemize}
+%
+%	\columnbreak
+%
+%	Begale:
+%	\begin{itemize}
+%	    \item Costo razonabe 
+%	    \item Funcionamiento como mote/mqtt/webserver
+%	    \item Herramientas de programación open y standard
+%	    \item Herramientas de programación open
+%	    \item Bajo consumo de CPU
+%	    \item Simple y ágil
+%	\end{itemize}
+%      \end{multicols} 
+%  \end{frame}
 
-	\columnbreak
-
-	Begale:
-	\begin{itemize}
-	    \item Costo razonabe 
-	    \item Funcionamiento como mote/mqtt/webserver
-	    \item Herramientas de programación open y standard
-	    \item Herramientas de programación open
-	    \item Bajo consumo de CPU
-	    \item Simple y ágil
-	\end{itemize}
-      \end{multicols} 
-  \end{frame}
-
-\begin{frame}{Conclusiones - Bases de datos}
-      \begin{multicols}{2}
-	MySql :
-	\begin{itemize}
-            \item Organización en tablas
-            \item Posibilidad de linkeo de tablas
-            \item Estable y configurable
-            \item Consumo de CPU intensivo
-            \item Poco apropiada para embebidos
-	\end{itemize}
-
-	\columnbreak
-
-	influxDB:
-	\begin{itemize}
-            \item Organización por hash tags
-            \item Bajo consumo de CPU
-            \item Simple y ágil
-            \item Configuración limitada
-            \item Queries optimizadas para adquisición por slots temporales
-	\end{itemize}
-      \end{multicols} 
-  \end{frame}
+%\begin{frame}{Conclusiones - Bases de datos}
+%      \begin{multicols}{2}
+%	MySql :
+%	\begin{itemize}
+%            \item Organización en tablas
+%            \item Posibilidad de linkeo de tablas
+%            \item Estable y configurable
+%            \item Consumo de CPU intensivo
+%            \item Poco apropiada para embebidos
+%	\end{itemize}
+%
+%	\columnbreak
+%
+%	influxDB:
+%	\begin{itemize}
+%            \item Organización por hash tags
+%            \item Bajo consumo de CPU
+%            \item Simple y ágil
+%            \item Configuración limitada
+%            \item Queries optimizadas para adquisición por slots temporales
+%	\end{itemize}
+%      \end{multicols} 
+%  \end{frame}
 
 \begin{frame}{Trabajos futuros}
       \begin{itemize}
